@@ -274,6 +274,8 @@ header {
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stars .bx {
