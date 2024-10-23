@@ -83,7 +83,7 @@ header {
   color: var(--secondary-color);
 }
 #menu-icon {
-  color: var(--bg-color);
+  color: var(--secondary-color);
   font-size: 24px;
   z-index: 10001;
   cursor: pointer;
