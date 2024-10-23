@@ -244,6 +244,11 @@ header {
   /* transition-delay: 1s; */
 }
 
+.product-container .box:hover {
+  transform: scale(105%);
+  transition: 0.25s all linear;
+}
+
 .customers-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -351,11 +356,12 @@ header {
 }
 
 .home-img img {
-  animation-name: minion;
+  animation: minion 5s infinite linear;
+  /* animation-name: minion;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-delay: 1s;
+  animation-delay: 1s; */
 }
 
 @media (max-width: 1058px) {
