@@ -11,9 +11,14 @@
 
 :root {
   --main-color: #bc9667;
-  --secondary-color: #edeae3;
+  /* --main-color: #d5cea3; */
+  /* --secondary-color: #edeae3; */
+  --secondary-color: #e5e5cb;
+  --third-color: #edeae3;
   --text-color: #1b1b1b;
   --bg-color: #fff;
+  --second-bg-color: #1a120b;
+  --third-bg-color: #3c2a21;
 
   --box-shadow: 2px 2px 10px 14px rgb(14 55 54/15%);
 }
@@ -38,9 +43,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 18px 100px;
-  background: var(--text-color);
+  background: var(--second-bg-color);
   transition: 0.5s linear;
 }
 .logo img {
@@ -52,7 +57,7 @@ header {
 }
 .navbar a {
   padding: 8px 17px;
-  color: var(--bg-color);
+  color: var(--secondary-color);
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -75,7 +80,7 @@ header {
   /* color: var(--bg-color); */
 }
 .header-icon .bx {
-  color: var(--bg-color);
+  color: var(--secondary-color);
 }
 #menu-icon {
   color: var(--bg-color);
@@ -155,6 +160,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   gap: 1.5rem;
+  background-color: #e5e5cb;
 }
 
 .about-img img {
@@ -169,6 +175,10 @@ header {
 .about-text p {
   font-size: 0.938rem;
   margin: 0.5rem 0 1.1rem;
+}
+
+.Product-end {
+  /* background-color: #e5e5cb; */
 }
 
 .heading {
@@ -288,7 +298,7 @@ header {
 }
 
 .customers-container .box:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--third-color);
   transform: scale(105%);
   transition: 0.25s all linear;
 }
@@ -297,6 +307,8 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, auto));
   gap: 1.5rem;
+  background-color: var(--second-bg-color);
+  color: var(--secondary-color);
 }
 
 .footer .footer-box h3 {
@@ -330,7 +342,7 @@ header {
 }
 
 .footer-box li a {
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 .footer-box li a:hover {
   color: var(--main-color);
