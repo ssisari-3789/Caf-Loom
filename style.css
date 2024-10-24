@@ -355,6 +355,7 @@ header {
   row-gap: 0.5rem;
 }
 
+/* Home image animation */
 @keyframes minion {
   0%,
   100% {
