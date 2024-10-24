@@ -303,6 +303,7 @@ header {
   transition: 0.25s all linear;
 }
 
+/* Footer */
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, auto));
