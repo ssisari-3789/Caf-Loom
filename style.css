@@ -118,6 +118,7 @@ header {
   font-weight: 500;
 }
 
+/* Home */
 .home {
   width: 100%;
   min-height: 100vh; /*vh=viewpoint height*/
@@ -156,6 +157,7 @@ header {
   background: #8a6f4d;
 }
 
+/* About */
 .about {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
@@ -175,10 +177,6 @@ header {
 .about-text p {
   font-size: 0.938rem;
   margin: 0.5rem 0 1.1rem;
-}
-
-.Product-end {
-  /* background-color: #e5e5cb; */
 }
 
 .heading {
