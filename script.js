@@ -12,7 +12,7 @@ document.querySelector("#menu-icon").onclick = () => {
   search.classList.remove("active");
 };
 
-window.onscroll = () => {
+window.onscroll = () => {   //Create a function to hide the navigation bar and the search bar when scrolling the page
   navigation.classList.remove("active");
   search.classList.remove("active");
 };
